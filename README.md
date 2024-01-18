@@ -8,7 +8,8 @@ Programma darbojas izmantojot termināli, tādēļ, lai to izmantotu ir nepiecei
  _pip install selenium_  
  _pip install prettytable_  
  
- Vēl arī ir nepieciešama _Chrome_ pārlūkprogramma, ko programma izmanto, lai piekļūtu mājaslapai.
+Vēl arī ir nepieciešama _Chrome_ pārlūkprogramma, ko programma izmanto, lai piekļūtu mājaslapai.  
+Kā programma darbojas var apskatīt ***Koda_Darbības_Video.mp4*** 
 
 ## Izmantotās bibliotēkas
 Galvenā bibliotēka kas tiek izmantota šī projekta kodā ir _**selenium**_. Šajā kodā šī bibliotēka tiek izmantota, lai automatizētu informācijas iegūšanu no mājaslapas (ss.lv). Tā tiek izmantota lai mājaslapā atrastu konkrētus elementus, ievadītu nepieciešamās vērtības, izvālētos nepieciešamās vērtības, kā arī, lai iegūtu datus. No šīs bibliotēkas tiek importēti vairāki moduļi, kas nepieciešami dažādām darbībām mājaslapā. Piemēram, _**webdriver**_, kas tiek izmantots, lai varētu piekļūt pārlūkprogrammai (šajā gadījumā Chrome), tiek izmantos arī _**By**_ modulis, lai mājaslapā atrastu konkrētus elementus izmantojot to ID, klasi vai citus parametrus, kā arī tiek izmantots _**NoSuchElementException**_, kas tiek izmantots, lai apstrādātu kļūdas, kad netiek atrasts nepieciešamais mājaslapas elements.
